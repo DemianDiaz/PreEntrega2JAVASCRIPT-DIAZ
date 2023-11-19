@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Odia:wght@400;800&family=Antonio:wght@100;300;600&family=Poppins:wght@200;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Anek Odia', sans-serif;
+  }
+
+body {
+    background: rgb(238,236,18);
+    background: linear-gradient(90deg, rgba(238,236,18,1) 0%, rgba(0,0,0,1) 70%);
+}
+
+header {
+    margin-block: 3rem;
+    padding-inline: 3rem;
+    font-weight: 800;
+
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+.list-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(9, 1fr);
+    grid-template-areas:
+        "titulo1 titulo2 titulo3 titulo4"
+        "nombre1 medida1 descripcion1 precio1"
+        "nombre2 medida2 descripcion2 precio2"
+        "nombre3 medida3 descripcion3 precio3"
+        "nombre4 medida4 descripcion4 precio4"
+        "nombre5 medida5 descripcion5 precio5"
+        "nombre6 medida6 descripcion6 precio6"
+        "nombre7 medida7 descripcion7 precio7"
+        "nombre8 medida8 descripcion8 precio8";
+    column-gap: 1rem;
+    padding-inline: 3rem;
+    padding-block: 1rem;
+    margin: 5 rem;
+    margin-inline: 10rem;
+    background-color: #d22502;
+    border-radius: 10px;
+    width: 70%;
+    align-items: center;
+    justify-items: center;
+    font-weight: 400;
+
+    & p {
+        background-color: #929090;
+        padding: 0.3rem;
+        padding-inline: 1rem;
+        border-radius: 10px;
+        justify-content: center;
+    }
+
+    .name-title {
+        grid-area: titulo1;
+    }
+
+    .size-title {
+        grid-area: titulo2;
+    }
+
+    .description-title {
+        grid-area: titulo3;
+    }
+
+    .price-title {
+        grid-area: titulo4;
+    }
+
+    .name1 {
+        grid-area: nombre1;
+    }
+
+    .size1 {
+        grid-area: medida1;
+    }
+
+    .desc1 {
+        grid-area: descripcion1;
+    }
+
+    .price1 {
+        grid-area: precio1;
+    }
+
+    .name2 {
+        grid-area: nombre2;
+    }
+
+    .size2 {
+        grid-area: medida2;
+    }
+
+    .desc2 {
+        grid-area: descripcion2;
+    }
+
+    .price2 {
+        grid-area: precio2;
+    }
+    
+    .name3 {
+        grid-area: nombre3;
+    }
+
+    .size3 {
+        grid-area: medida3;
+    }
+
+    .desc3 {
+        grid-area: descripcion3;
+    }
+
+    .price3 {
+        grid-area: precio3;
+    }
+
+    .name4 {
+        grid-area: nombre4;
+    }
+
+    .size4 {
+        grid-area: medida4;
+    }
+
+    .desc4 {
+        grid-area: descripcion4;
+    }
+
+    .price4 {
+        grid-area: precio4;
+    }
+
+    .name5 {
+        grid-area: nombre5;
+    }
+
+    .size5 {
+        grid-area: medida5;
+    }
+
+    .desc5 {
+        grid-area: descripcion5;
+    }
+
+    .price5 {
+        grid-area: precio5;
+    }
+
+    .name6 {
+        grid-area: nombre6;
+    }
+
+    .size6 {
+        grid-area: medida6;
+    }
+
+    .desc6 {
+        grid-area: descripcion6;
+    }
+
+    .price6 {
+        grid-area: precio6;
+    }
+
+    .name7 {
+        grid-area: nombre7;
+    }
+
+    .size7 {
+        grid-area: medida7;
+    }
+
+    .desc7 {
+        grid-area: descripcion7;
+    }
+
+    .price7 {
+        grid-area: precio7;
+    }
+
+    .name8 {
+        grid-area: nombre8;
+    }
+
+    .size8 {
+        grid-area: medida8;
+    }
+
+    .desc8 {
+        grid-area: descripcion8;
+    }
+
+    .price8 {
+        grid-area: precio8;
+    }
+
+    .encabezado {
+        font-size: 2rem;
+        color: white;
+        background-color: black;
+        padding-block: 0.1rem;
+    }
+}
